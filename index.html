@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body class="flex h-screen w-screen justify-center items-center bg-gradient-to-br from-purple-700 to-orange-900">
+        
+    <div class=" hover:scale-105 duration-300  bg-slate-800 border border-white rounded-xl shadow-md hover:shadow-lg hover:shadow-slate-400">
+        <div id="display" class="m-3 p-4 text-5xl shadow-md shadow-slate-600 text-gray-800 font-serif font-bold flex flex-col justify-center border-2 border-slate-600 items-center rounded-md h-1/3 text-center  bg-slate-300">
+
+            <p id="result" class="fade-in visible">Calculator</p>
+        </div>
+
+        <div id="grid" class="calc rounded-md py-2 cursor-pointer  mx-2 bg-slate-800 ">
+            <button value="AC" class="bg-gradient-to-t rounded-tl-md p-5 overflow-hidden hover:scale-105 text-center border text-white font-medium   from-purple-600 to-purple-900">AC</button>
+            <button value="DEL" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white  from-purple-600 to-purple-900">DEL</button>
+            <button value="%" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white  from-purple-600 to-purple-900">%</button>
+            <button value="+/-" class="bg-gradient-to-t rounded-tr-md p-5 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-purple-600 to-purple-900">+/-</button>
+
+            <button value="7" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">7</button>
+            <button value="8" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">8</button>
+            <button value="9" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">9</button>
+            <button value="*" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-purple-600 to-purple-900">*</button>
+            
+            <button value="4" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">4</button>
+            <button value="5" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">5</button>
+            <button value="6" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">6</button>
+            <button value="-" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-purple-600 to-purple-900">-</button>
+
+            <button value="1" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">1</button>
+            <button value="2" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">2</button>
+            <button value="3" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">3</button>
+            <button value="+" class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-purple-600 to-purple-900">+</button>
+
+            <button value="0" class="bg-gradient-to-t p-5 duration-200 rounded-bl-md overflow-hidden hover:scale-105 col-start-1 col-end-3 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">0</button>
+            <button value="." class="bg-gradient-to-t p-5 duration-200 overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-slate-400 to-slate-700">.</button>
+            <button value="=" class="bg-gradient-to-t p-5 duration-200 rounded-br-md overflow-hidden hover:scale-105 text-center border text-white font-medium  border-white from-purple-600 to-purple-900">=</button>
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
